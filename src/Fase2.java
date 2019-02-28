@@ -16,7 +16,7 @@ public class Fase2 {
         charList.add('7');
         charList.add('9');
 
-        vocalOrConsonant(charList);
+        printVowelOrConsonant(charList);
 
     }
     private static boolean isVocal ( char character){
@@ -27,7 +27,7 @@ public class Fase2 {
     }
 
 
-    private static void vocalOrConsonant(List<Character> characterList) {
+    private static void printVowelOrConsonant(List<Character> characterList) {
         for (char c : characterList) {
             c = Character.toLowerCase(c);
             verification(c);
@@ -42,8 +42,7 @@ public class Fase2 {
                 System.out.println(c + " ---- Consonant");
             }
         } else {
-            System.out.println(c + " ---- Els noms de persones no contenen números");
+            System.out.println(c + " ---- People names do not contain numbers");
         }
     }
 }
-//toUpperCase()
