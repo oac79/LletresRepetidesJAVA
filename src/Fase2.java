@@ -26,7 +26,6 @@ public class Fase2 {
             return false;
     }
 
-
     private static void printVowelOrConsonant(List<Character> characterList) {
         for (char c : characterList) {
             c = Character.toLowerCase(c);

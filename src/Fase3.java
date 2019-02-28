@@ -10,8 +10,7 @@ public class Fase3 {
     public static void main(String [] args){
 
         characterList = Arrays.asList('I','T','U','R','R','I','A','G','A');
-        System.out.print("------------------------------------");
-        addOccurrences(characterList);
+        letters=addOccurrences(characterList);
         printHashMap(letters);
     }
 
