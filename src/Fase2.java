@@ -19,7 +19,7 @@ public class Fase2 {
         printVowelOrConsonant(charList);
 
     }
-    private static boolean isVocal ( char character){
+    private static boolean isVowel ( char character){
         if (character == 'a' || character == 'e' || character == 'i' || character == 'o' || character == 'u') {
             return true;
         }
@@ -29,13 +29,13 @@ public class Fase2 {
     private static void printVowelOrConsonant(List<Character> characterList) {
         for (char c : characterList) {
             c = Character.toLowerCase(c);
-            verification(c);
+            verificationVowelOrConsonant(c);
         }
     }
 
-    private static void verification(char c) {
+    private static void verificationVowelOrConsonant(char c) {
         if (!Character.isDigit(c)) {
-            if (isVocal(c)) {
+            if (isVowel(c)) {
                 System.out.println(c + " ---- Vocal");
             } else {
                 System.out.println(c + " ---- Consonant");

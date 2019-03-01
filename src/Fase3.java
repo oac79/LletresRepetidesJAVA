@@ -9,13 +9,14 @@ public class Fase3 {
 
     public static void main(String [] args){
 
+        Iterator it;
         characterList = Arrays.asList('I','T','U','R','R','I','A','G','A');
         letters=addOccurrences(characterList);
         printHashMap(letters);
     }
 
 
-    private static HashMap<Character,Integer> addOccurrences(List<Character> list) {
+    private static HashMap<Character,Integer > addOccurrences(List<Character> list) {
         HashMap<Character, Integer> hashMap = new HashMap<>();
         for (Character currentChar : list){
             if(hashMap.containsKey(currentChar)){
