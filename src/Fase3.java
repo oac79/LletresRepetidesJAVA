@@ -8,7 +8,6 @@ public class Fase3 {
 
     public static void main(String [] args){
 
-        Iterator it;
         characterList = Arrays.asList('I','T','U','R','R','I','A','G','A');
         letters=addOccurrences(characterList);
         printHashMap(letters);

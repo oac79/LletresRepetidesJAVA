@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93e1996c-87e5-4614-9655-2ce6ded84384" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Fase3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fase3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/src/Fase2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,16 +39,7 @@
         <entry file="file://$PROJECT_DIR$/src/Fase3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Iterator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="53" column="27" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="27" />
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -55,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Fase4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="391">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,7 +111,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551436147723" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551437970310" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -139,7 +131,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Fase4">
+  <component name="RunManager" selected="Application.Fase3">
     <configuration name="Fase2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Fase2" />
       <module name="Exercici_Lletres_Repetides" />
@@ -170,8 +162,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Fase4" />
         <item itemvalue="Application.Fase3" />
+        <item itemvalue="Application.Fase4" />
         <item itemvalue="Application.Fase2" />
         <item itemvalue="Application.Main" />
       </list>
@@ -194,7 +186,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16109626" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16109626" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -203,7 +195,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35021096" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35021096" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -266,16 +258,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Fase4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Iterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -286,7 +268,20 @@
     <entry file="file://$PROJECT_DIR$/src/Fase2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Exercici_Lletres_Repetides/Main.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Fase4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -296,7 +291,7 @@
     <entry file="file://$PROJECT_DIR$/src/Fase3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>
