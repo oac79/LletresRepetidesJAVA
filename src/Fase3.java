@@ -3,7 +3,6 @@ import java.util.*;
 public class Fase3 {
 
     static List<Character> characterList;
-    static StringBuilder sb;
     static String surname;
     static HashMap<Character,Integer> letters;
 
