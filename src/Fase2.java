@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Fase2 {
@@ -6,16 +7,7 @@ public class Fase2 {
     public static void main(String[] args) {
         //FASE 2
         System.out.println("---------------------------FASE2-------------------------------");
-        List<Character> charList = new ArrayList<>();
-        charList.add('O');
-        charList.add('l');
-        charList.add('i');
-        charList.add('v');
-        charList.add('e');
-        charList.add('r');
-        charList.add('7');
-        charList.add('9');
-
+        List<Character> charList = Arrays.asList('O','l','i','v','e','r','7','9','{');
         printVowelOrConsonant(charList);
 
     }
@@ -27,21 +19,33 @@ public class Fase2 {
     }
 
     private static void printVowelOrConsonant(List<Character> characterList) {
+        int num;
         for (char c : characterList) {
             c = Character.toLowerCase(c);
-            verificationVowelOrConsonant(c);
+            num=checkIfVowelOrConsonant(c);
+            if(num==0){
+                System.out.println(c + " ---- People names do not contain numbers");
+            }else if(num==1){
+                System.out.println(c + " ---- Vowel");
+            }else if (num==2){
+                System.out.println(c + " ---- Consonant");
+            }else if(num==3){
+                System.out.println(c + " ---- The Character is not a digit or a letter");
+            }
         }
     }
 
-    private static void verificationVowelOrConsonant(char c) {
-        if (!Character.isDigit(c)) {
-            if (isVowel(c)) {
-                System.out.println(c + " ---- Vocal");
-            } else {
-                System.out.println(c + " ---- Consonant");
-            }
-        } else {
-            System.out.println(c + " ---- People names do not contain numbers");
+    private static int checkIfVowelOrConsonant(char c) {
+        if (Character.isDigit(c)) {
+                return 0;
+        }
+        else if (isVowel(c)) {
+                return 1;
+        }
+        else if(Character.isLetter(c)) {
+                return 2;
+        }else{
+                return 3;
         }
     }
 }
