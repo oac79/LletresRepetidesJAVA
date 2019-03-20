@@ -12,10 +12,8 @@ public class Fase2 {
 
     }
     private static boolean isVowel ( char character){
-        if (character == 'a' || character == 'e' || character == 'i' || character == 'o' || character == 'u') {
-            return true;
-        }
-            return false;
+        return (character == 'a' || character == 'e' || character == 'i' || character == 'o' || character == 'u');
+
     }
 
     private static void printVowelOrConsonant(List<Character> characterList) {
